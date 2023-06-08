@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: nginx-production
-        image: kibana:8.8.0
+        image: helloworld
         ports:
         - containerPort: 80
         resources:
