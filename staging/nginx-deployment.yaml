@@ -6,7 +6,7 @@ spec:
   selector:
     matchLabels:
       run: nginx-production
-  replicas: 3
+  replicas: 4
   template:
     metadata:
       labels:
